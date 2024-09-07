@@ -1,3 +1,9 @@
+## 1.0.2 ([Sep 7, 2024](https://github.com/ramensoftware/windhawk-mods/blob/c29c34158db1e514c7aac0c0107e8e2f73944277/mods/uifile-override.wh.cpp))
+
+UIFILE Override v1.0.2
+
+* Check executable name instead of full path for explorer hooking
+
 ## 1.0.1 ([Aug 14, 2024](https://github.com/ramensoftware/windhawk-mods/blob/632302ab902c1d9adb22ad003bb27e41897ca79e/mods/uifile-override.wh.cpp))
 
 * Fix issue with Explorer not hooking shell32 sometimes at startup
