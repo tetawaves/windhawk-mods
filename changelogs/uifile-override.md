@@ -1,6 +1,4 @@
-## 1.0.1 ([Aug 14, 2024](https://github.com/ramensoftware/windhawk-mods/blob/c03c6f50c257dfa90742510fba158c54b8f1ba2b/mods/uifile-override.wh.cpp))
-
-UIFILE Override v1.0.1
+## 1.0.1 ([Aug 14, 2024](https://github.com/ramensoftware/windhawk-mods/blob/632302ab902c1d9adb22ad003bb27e41897ca79e/mods/uifile-override.wh.cpp))
 
 * Fix issue with Explorer not hooking shell32 sometimes at startup
 * Free ShellStyle module at uninit

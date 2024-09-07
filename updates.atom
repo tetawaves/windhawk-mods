@@ -2,207 +2,362 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://windhawk.net/</id>
     <title>Windhawk Mod Updates</title>
-    <updated>2024-08-14T18:46:08.000Z</updated>
+    <updated>2024-09-07T00:32:30.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://windhawk.net/"/>
     <subtitle>Updates in the official collection of Windhawk mods</subtitle>
     <icon>https://windhawk.net/favicon.ico</icon>
     <rights>Ramen Software</rights>
     <entry>
-        <title type="html"><![CDATA[UIFILE Override 1.0.1]]></title>
-        <id>https://windhawk.net/mods/uifile-override#c03c6f50c257dfa90742510fba158c54b8f1ba2b</id>
-        <link href="https://windhawk.net/mods/uifile-override"/>
-        <updated>2024-08-14T18:46:08.000Z</updated>
-        <content type="html"><![CDATA[<p>UIFILE Override v1.0.1</p>
-<ul>
-<li>Fix issue with Explorer not hooking shell32 sometimes at startup</li>
-<li>Free ShellStyle module at uninit</li>
-</ul>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Windows 7 Alt+Tab Loader 1.0.3]]></title>
-        <id>https://windhawk.net/mods/win7-alttab-loader#c541b5650cd974bbbf77bfac89f9f12851d58dc0</id>
-        <link href="https://windhawk.net/mods/win7-alttab-loader"/>
-        <updated>2024-08-14T09:43:30.000Z</updated>
-        <content type="html"><![CDATA[<p>Windows 7 Alt+Tab Loader 1.0.3: Remove dead WindhawkUtils namespace</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Windows 10 taskbar on Windows 11 1.0.1]]></title>
-        <id>https://windhawk.net/mods/win10-taskbar-on-win11#6deadd9a1b7273347088f6ffe82459bca72b6c41</id>
-        <link href="https://windhawk.net/mods/win10-taskbar-on-win11"/>
-        <updated>2024-08-12T14:10:59.000Z</updated>
-        <content type="html"><![CDATA[<p>More clarity in description</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Taskbar Thumbnail Reorder 1.0.8]]></title>
-        <id>https://windhawk.net/mods/taskbar-thumbnail-reorder#2efe8bfdd78e6d3aa282afe913543b2e6e0ac84b</id>
-        <link href="https://windhawk.net/mods/taskbar-thumbnail-reorder"/>
-        <updated>2024-08-10T20:15:38.000Z</updated>
-        <content type="html"><![CDATA[<ul>
-<li>Added support for Windows 11 version 24H2.</li>
-</ul>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Taskbar height and icon size 1.2.10]]></title>
-        <id>https://windhawk.net/mods/taskbar-icon-size#e3b2fcf725fb4688a56af83dd299f2605182cdcc</id>
-        <link href="https://windhawk.net/mods/taskbar-icon-size"/>
-        <updated>2024-08-10T17:14:48.000Z</updated>
-        <content type="html"><![CDATA[<ul>
-<li>Added support for Windows 11 version 24H2.</li>
-</ul>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Legacy Alt+Tab dialog 1.0]]></title>
-        <id>https://windhawk.net/mods/legacy-alt-tab#00ded682e58440e653b80814a164723252f65c46</id>
-        <link href="https://windhawk.net/mods/legacy-alt-tab"/>
-        <updated>2024-08-10T13:47:02.000Z</updated>
-        <content type="html"><![CDATA[<p>Enables legacy Alt+Tab dialog from Windows XP and Windows 2000</p>
-<p><img src="https://i.imgur.com/wdX9PW7.png" alt="Legacy Alt+Tab" /></p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Windows 10 taskbar on Windows 11 1.0]]></title>
-        <id>https://windhawk.net/mods/win10-taskbar-on-win11#fdcbbba78e2a2598fab384f47ca8751c0e1bb68d</id>
-        <link href="https://windhawk.net/mods/win10-taskbar-on-win11"/>
-        <updated>2024-08-10T12:09:01.000Z</updated>
-        <content type="html"><![CDATA[<p>This mod enables Windows 10 taskbar on Windows 11 versions 21H2 to 23H2 via registry method, without
-using Explorer Patcher. </p>
-<p>It may be useful also on later versions of Windows with Explorer.exe downgraded to previous versions
-and/or manipulated Windows features using vivetool utility.</p>
-<p>If you want to get rid of the cogwheel icon in the tray area, use the mod "Hide Action Center icon".
-You can restore the clock and set up the tray icons using legacy tray setup dialog,
-which you can start with command <code>shell:::{05d7b0f4-2121-4eff-bf6b-ed3f69b894d9}</code></p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Disable grouping on the taskbar 1.3.5]]></title>
-        <id>https://windhawk.net/mods/taskbar-grouping#32678e0ef871bf50c15cd8692b9317b869915542</id>
-        <link href="https://windhawk.net/mods/taskbar-grouping"/>
-        <updated>2024-08-09T17:18:31.000Z</updated>
-        <content type="html"><![CDATA[<ul>
-<li>Another attempt at fixing multiple pinned items appearing for the same program.</li>
-<li>Added support for Windows 11 version 24H2.</li>
-</ul>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Classic File Picker dialog 1.1.1]]></title>
-        <id>https://windhawk.net/mods/classic-file-picker-dialog#1b2a786aeb208e28f3aec941300c7710d20c403e</id>
-        <link href="https://windhawk.net/mods/classic-file-picker-dialog"/>
-        <updated>2024-08-04T10:23:27.000Z</updated>
-        <content type="html"><![CDATA[<p>Fix reference to another mod</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fix Qt scrollbar grippers 1.0]]></title>
-        <id>https://windhawk.net/mods/fix-qt-scrollbar-grippers#ad2ad2e2f07630fcdefb96a16bcc53695bb97490</id>
-        <link href="https://windhawk.net/mods/fix-qt-scrollbar-grippers"/>
-        <updated>2024-08-03T19:12:47.000Z</updated>
-        <content type="html"><![CDATA[<h1 id="fixqtscrollbargrippers">Fix Qt scrollbar grippers</h1>
-<p><img src="https://raw.githubusercontent.com/kawapure/images/main/fix-qt-scrollbar-grippers.png" alt="Preview" /></p>
-<p>Qt applications compiled after 2021 (against Qt 6.1+) lack the scrollbar grippers (the lines in the middle),
-visible on custom visual styles, because the responsible drawing code was removed. Here is a lazy hack around
-that.</p>
-<p>These were removed in Qt <a href="https://github.com/qt/qtbase/commit/5f5c342924a0d9a2856b2f2d6db373e25723f2b0">because the developers thought that these changes wouldn't affect Windows 10</a>.
-They were wrong.</p>
-<h2 id="howtoenablethemodforaprogram">How to enable the mod for a program</h2>
-<p>This mod targets the Interactive Disassembler (IDA) by default. Other applications must be manually specified
-for injection.</p>
-<p>In Windhawk, go to the "Advanced" tab and scroll down to 
-"Custom process inclusion list". In that box, put the filename of the <code>.exe</code>. 
-The mod will immediately apply to those programs after you click "Save".</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cycle taskbar buttons with mouse wheel 1.1.4]]></title>
-        <id>https://windhawk.net/mods/taskbar-wheel-cycle#a480102c52e3cd16e1cea214913e1395155c82c0</id>
-        <link href="https://windhawk.net/mods/taskbar-wheel-cycle"/>
-        <updated>2024-07-30T18:58:22.000Z</updated>
-        <content type="html"><![CDATA[<ul>
-<li>Fixed compatibility with update KB5040527.</li>
-</ul>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Classic Explorer navigation bar 1.0.4]]></title>
-        <id>https://windhawk.net/mods/explorer-frame-classic#8c10530a488a7c65b7b0815ee9c19131faece5b9</id>
-        <link href="https://windhawk.net/mods/explorer-frame-classic"/>
-        <updated>2024-07-29T18:05:51.000Z</updated>
-        <content type="html"><![CDATA[<ul>
-<li>Adjusted spacing for Windows 11 update KB5040527.</li>
-</ul>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Taskbar Disappearing Icon Fix for Windows 11 1.0]]></title>
-        <id>https://windhawk.net/mods/taskbar-disappearing-icon-fix-win11#329b6d6f4c8cbfbe7ee5aaafd53dc3922cd67a1c</id>
-        <link href="https://windhawk.net/mods/taskbar-disappearing-icon-fix-win11"/>
-        <updated>2024-07-29T08:55:42.000Z</updated>
-        <content type="html"><![CDATA[<h1 id="taskbardisappearingiconfixforwindows11">Taskbar Disappearing Icon Fix for Windows 11</h1>
-<p>Tries to fix disappearing icon bug in Windows 11 taskbar while switching virtual desktops.</p>
-<p>Since I cannot reproduce this bug very reliably, this mod may not have fixed the bug entirely. Let me know if it still persists.</p>
-<p>Takeaway message:</p>
-<ul>
-<li>It is observed that hiding (<code>Visibility: Collapsed</code>) the invisible icon and then making it visible after a while will fix it.</li>
-<li>However, hiding the icon for a while results in flickering.</li>
-<li>The mod tries to flicker the icon only when the system tries to change its display name, typically while switching virtual desktops, making the flicker hardly visible.</li>
-</ul>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[UIRibbon Caption Icon Fix 1.0.1]]></title>
-        <id>https://windhawk.net/mods/ribbon-caption-icon-fix#826bbbc6eae09d97930483a2c62a5062f548e94c</id>
-        <link href="https://windhawk.net/mods/ribbon-caption-icon-fix"/>
-        <updated>2024-07-28T21:48:37.000Z</updated>
-        <content type="html"><![CDATA[<p>Changed the license.</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Windows 11 Start Menu Styler 1.1.5]]></title>
-        <id>https://windhawk.net/mods/windows-11-start-menu-styler#b6c907a723f18b738c615933ec1834ef9009f18d</id>
-        <link href="https://windhawk.net/mods/windows-11-start-menu-styler"/>
-        <updated>2024-07-28T18:06:46.000Z</updated>
-        <content type="html"><![CDATA[<ul>
-<li>Updated SideBySide2 theme with several fixes.</li>
-</ul>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Windows 11 Taskbar Styler 1.3.7]]></title>
-        <id>https://windhawk.net/mods/windows-11-taskbar-styler#5ceffe5133b88ab09b00e41a846cd7a4bcb4e4c0</id>
-        <link href="https://windhawk.net/mods/windows-11-taskbar-styler"/>
-        <updated>2024-07-28T08:27:21.000Z</updated>
-        <content type="html"><![CDATA[<ul>
-<li>Added themes: DockLike, WinVista.</li>
-<li>Updated themes: TranslucentTaskbar, Squircle, RosePine, Bubbles.</li>
-</ul>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Windows 11 Start Menu Styler 1.1.4]]></title>
-        <id>https://windhawk.net/mods/windows-11-start-menu-styler#2007927c9158132859b6d559104a7539742c74d7</id>
-        <link href="https://windhawk.net/mods/windows-11-start-menu-styler"/>
-        <updated>2024-07-28T08:26:51.000Z</updated>
-        <content type="html"><![CDATA[<ul>
-<li>Added themes: Fluent2Inspired, Windows10, Windows11_Metro10.</li>
-<li>Updated themes: SideBySide, SideBySide2, TranslucentStartMenu.</li>
-</ul>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Windows 11 Notification Center Styler 1.1.1]]></title>
-        <id>https://windhawk.net/mods/windows-11-notification-center-styler#931b937d1cfa9782375c939c104de17bf0b5047a</id>
-        <link href="https://windhawk.net/mods/windows-11-notification-center-styler"/>
-        <updated>2024-07-28T08:25:30.000Z</updated>
-        <content type="html"><![CDATA[<ul>
-<li>Updated the TranslucentShell theme.</li>
-</ul>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Taskbar height and icon size 1.2.9]]></title>
-        <id>https://windhawk.net/mods/taskbar-icon-size#7e0bd27ae1d12ae639497fbc9b48bb791f98b078</id>
-        <link href="https://windhawk.net/mods/taskbar-icon-size"/>
-        <updated>2024-07-27T12:01:19.000Z</updated>
-        <content type="html"><![CDATA[<ul>
-<li>Fixed compatibility with update KB5040527 for Windows 11 version 23H2.</li>
-</ul>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Accent Color Sync 1.31]]></title>
-        <id>https://windhawk.net/mods/accent-color-sync#940c28ba0fb4ccebb782988516dd6bb5a7f23de0</id>
+        <title type="html"><![CDATA[Accent Color Sync 1.4]]></title>
+        <id>https://windhawk.net/mods/accent-color-sync#7292f722244cd19dc93c4438270bcc600b4bf2ec</id>
         <link href="https://windhawk.net/mods/accent-color-sync"/>
-        <updated>2024-07-27T00:57:34.000Z</updated>
+        <updated>2024-09-07T00:32:30.000Z</updated>
         <content type="html"><![CDATA[<ul>
-<li>Set <em>Sync with DWM</em> option to enabled by default, and added notice for updating regarding this option in the readme.</li>
-<li>Update French and Spanish translation.</li>
+<li>Replaced DWM Colorization Parameters calculation formula with <a href="https://github.com/ALTaleX531/dwm_colorization_calculator">ALTaleX's method</a>.</li>
+<li>Compatibility check now returns the actual Windows version instead of the version returned from Explorer. This fixes the issue of the mod not being compatible with <a href="https://github.com/Erizur/explorer7-releases/">explorer7</a>.</li>
+<li>Updated readme.</li>
 </ul>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Customize Windows 11 notifications placement 1.0]]></title>
+        <id>https://windhawk.net/mods/notifications-placement#2bc5971618b258d5d262c1327fba3491bdf9798b</id>
+        <link href="https://windhawk.net/mods/notifications-placement"/>
+        <updated>2024-09-06T17:31:45.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="customizewindows11notificationsplacement">Customize Windows 11 notifications placement</h1>
+<p>Move notifications to another monitor or another corner of the screen.</p>
+<p>Only Windows 11 is supported.</p>
+<p><img src="https://i.imgur.com/4PxMvLg.png" alt="Screenshot" /></p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Classic Taskbar background fix 1.0.3]]></title>
+        <id>https://windhawk.net/mods/classic-taskbar-background-fix#fc6e85e377c3948bcf182bd71fe74f5f0afea3b5</id>
+        <link href="https://windhawk.net/mods/classic-taskbar-background-fix"/>
+        <updated>2024-09-05T06:26:42.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Fixed a small resource leak related to the "Show desktop" button</li>
+</ul>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Enables Win10 taskbar on Win11 24H2 0.1]]></title>
+        <id>https://windhawk.net/mods/win10-taskbar-on-win11-24h2#15b8878e02343f715b24376701b5f15b5dfb2d33</id>
+        <link href="https://windhawk.net/mods/win10-taskbar-on-win11-24h2"/>
+        <updated>2024-09-04T10:47:10.000Z</updated>
+        <content type="html"><![CDATA[<p>Enables Windows 10 taskbar on Windows 11 version 24H2, Windows Server 2025 and Windows 11 IoT Enterprise LTSC 2024.
+If you are on Windows 11 version 21H2 to 23H2, you should not use this mod, but rather install the mod "Windows 10 taskbar on
+Windows 11".
+Important! Before enabling this mod, install the mod "Fake Explorer path".
+Since this mod downloads the Windows 10 taskbar from Microsoft's symbols server and stores it in the Windhawk data directory, 
+it won't work in the portable version of Windhawk.
+If you are using Classic theme, you should also install mods "Classic Theme Explorer Lite" and "Non Immersive Taskbar Context Menu".
+The mod "Eradicate immersive menus" will not work.
+You also can use 7+ Taskbar Tweaker. 
+Explorer Patcher by default will have no effect, ask at EP forums for support.
+To customize the clock and tray area, launch legacy tray setup dialog:
+<code>explorer shell:::{05d7b0f4-2121-4eff-bf6b-ed3f69b894d9}</code></p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Classic Theme Enable with extended compatibility 1.2.1]]></title>
+        <id>https://windhawk.net/mods/classic-theme-enable-with-extended-compatibility#1e62db06cc972d776be64ab8a0276348a8132b06</id>
+        <link href="https://windhawk.net/mods/classic-theme-enable-with-extended-compatibility"/>
+        <updated>2024-09-03T10:07:09.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li><p>Updated the readme instruction for triggering early / system start of Windhawk service, which is necessary to ensure that classic theme is properly applied before any programs including Taskbar run. The mod code is same, only readme instruction has changed. Also added one more classic theme related mod to the recommended mods list in the readme.</p></li>
+<li><p>Added instruction for making a service dependent on Windhawk</p></li>
+</ul>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fake Explorer path 1.0.1]]></title>
+        <id>https://windhawk.net/mods/fake-explorer-path#ebdfc3b11e6dedeb63bf66dd75ed00cc7a8ceb47</id>
+        <link href="https://windhawk.net/mods/fake-explorer-path"/>
+        <updated>2024-09-01T13:05:55.000Z</updated>
+        <content type="html"><![CDATA[<p>More clarity</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fake Explorer path 1.0]]></title>
+        <id>https://windhawk.net/mods/fake-explorer-path#33f5a6e22ac4c2ac74ed28bbd5ecb9bcef0d7492</id>
+        <link href="https://windhawk.net/mods/fake-explorer-path"/>
+        <updated>2024-09-01T11:55:08.000Z</updated>
+        <content type="html"><![CDATA[<p>Allows to run explorer.exe in taskbar mode from any location. This can be used to run another version of Explorer
+without replacing system files. The path to explorer.exe can be specified in the registry key
+HKEY<em>LOCAL</em>MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\Shell.
+For running taskbar in Windows 10 mode, the localization folder should be available
+at the location of explorer.exe. For Windows 11 taskbar mode, this is not required.</p>
+<p>The mod makes explorer.exe think that it has been launched from %Systemroot%\Windows.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vertical Taskbar for Windows 11 1.1]]></title>
+        <id>https://windhawk.net/mods/taskbar-vertical#387771ec375561f49fffc1429b8b185f54feb5e4</id>
+        <link href="https://windhawk.net/mods/taskbar-vertical"/>
+        <updated>2024-08-31T18:24:23.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Fixed the start menu being covered by the taskbar, adjusted its position to
+always open near the start button.</li>
+<li>Adjusted the position of the notification flyout and quick settings flyout to
+open near the tray area and not on the opposite side of the screen.</li>
+<li>The clock is no longer rotated sideways.</li>
+<li>Some (hopefully all) system tray icons are no longer rotated sideways.</li>
+<li>The default taskbar width was increased to account for the rotated clock
+width.</li>
+<li>Fixed some cases of disappearing taskbar icons.</li>
+<li>Fixed the position of the Win+X menu (start button right click menu).</li>
+<li>Other small fixes and improvements.</li>
+<li>Fixed the start button, search button and tasks button becoming larger when
+the taskbar width is increased.</li>
+</ul>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Lines in MMC and Device Manager 1.0.1]]></title>
+        <id>https://windhawk.net/mods/lines-in-mmc#3c610f47189a8abada7a1bc39a93e87de7d85af4</id>
+        <link href="https://windhawk.net/mods/lines-in-mmc"/>
+        <updated>2024-08-31T12:49:44.000Z</updated>
+        <content type="html"><![CDATA[<p>Fix image alignment</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Lines in MMC and Device Manager 1.0]]></title>
+        <id>https://windhawk.net/mods/lines-in-mmc#0662eabc9cfd455437ebfe9c6b0f9e3b5017b353</id>
+        <link href="https://windhawk.net/mods/lines-in-mmc"/>
+        <updated>2024-08-31T12:44:48.000Z</updated>
+        <content type="html"><![CDATA[<p>Adds dotted lines to the TreeView in Microsoft Management Console and Device Manager
+<img src="https://i.imgur.com/3ZBR2HD.png" alt="Screenshot" /></p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Always show all taskbar tray icons 1.0]]></title>
+        <id>https://windhawk.net/mods/taskbar-notification-icons-show-all#95ac5bad188ba63eaaa4f75de3f1578dc7c98b0a</id>
+        <link href="https://windhawk.net/mods/taskbar-notification-icons-show-all"/>
+        <updated>2024-08-29T18:32:11.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="alwaysshowalltaskbartrayicons">Always show all taskbar tray icons</h1>
+<p>Restore the missing Windows option to always show all notification (tray) icons.</p>
+<p>Alternatively, just make sure that new icons are shown by default.</p>
+<p>Only Windows 11 is supported.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Taskbar height and icon size 1.2.12]]></title>
+        <id>https://windhawk.net/mods/taskbar-icon-size#7ad7264eae826e7b96ebb07e04770e175f5fee9e</id>
+        <link href="https://windhawk.net/mods/taskbar-icon-size"/>
+        <updated>2024-08-26T20:12:41.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Fixed the weather/news widget content sometimes disappearing when large icons are used.</li>
+</ul>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Windows 7 Alt+Tab Loader 2.0.0]]></title>
+        <id>https://windhawk.net/mods/win7-alttab-loader#a1ef83e2b24d3b147686d269bf92c7c37c7feaa0</id>
+        <link href="https://windhawk.net/mods/win7-alttab-loader"/>
+        <updated>2024-08-26T07:38:42.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Complete rewrite</li>
+<li>Support for UWP app icons</li>
+<li>Aero Peek now works</li>
+</ul>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Aerexplorer 1.6.4]]></title>
+        <id>https://windhawk.net/mods/aerexplorer#a5291e5c748ccaf5b11b04412683a5d23601b9fc</id>
+        <link href="https://windhawk.net/mods/aerexplorer"/>
+        <updated>2024-08-25T16:52:43.000Z</updated>
+        <content type="html"><![CDATA[<p>Seamless CPL transition without forcing separate process mode</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Start button always on the left 1.0]]></title>
+        <id>https://windhawk.net/mods/taskbar-start-button-position#3a19d101477ac04951f6c533f92f137d0fdd048b</id>
+        <link href="https://windhawk.net/mods/taskbar-start-button-position"/>
+        <updated>2024-08-24T17:22:24.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="startbuttonalwaysontheleft">Start button always on the left</h1>
+<p>Forces the start button to be on the left of the taskbar, even when taskbar
+icons are centered.</p>
+<p>Only Windows 11 is supported.</p>
+<p>Known limitations:</p>
+<ul>
+<li>There's a jumpy animation when a centered taskbar is animated.</li>
+<li>Secondary monitors aren't supported.</li>
+</ul>
+<p><img src="https://i.imgur.com/bEqvfOE.png" alt="Screenshot" /></p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Aero Flyout Fix 1.1.0]]></title>
+        <id>https://windhawk.net/mods/aero-flyout-fix#edaa3ee94174396da2885ef9e0bff3e5d5e841bd</id>
+        <link href="https://windhawk.net/mods/aero-flyout-fix"/>
+        <updated>2024-08-24T12:28:25.000Z</updated>
+        <content type="html"><![CDATA[<p>Add support for Windows 7's network flyout</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Resource Redirect 1.1.5]]></title>
+        <id>https://windhawk.net/mods/icon-resource-redirect#84c3316ab38986a63b67f2dc50b44025989788ff</id>
+        <link href="https://windhawk.net/mods/icon-resource-redirect"/>
+        <updated>2024-08-23T18:21:22.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Added information about icon themes to the mod description.</li>
+</ul>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Classic Theme Enable with extended compatibility 1.2]]></title>
+        <id>https://windhawk.net/mods/classic-theme-enable-with-extended-compatibility#576aabb72aee51fab4422be367c77d2ee1cfe884</id>
+        <link href="https://windhawk.net/mods/classic-theme-enable-with-extended-compatibility"/>
+        <updated>2024-08-22T17:10:56.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="classicthemeenablewithextendedcompatibility">Classic Theme Enable with extended compatibility</h1>
+<p>Enables classic theme in Windows 10 and 11. <strong>This mod version adds support for RDP sessions and compatibility with early / system start of Windhawk.</strong></p>
+<p><a href="#6-how-to-configure-system-start-of-windhawk">Click here</a> if you want to see instructions for configuring system start of Windhawk. More technical details about the update can be found at the end of this document.</p>
+<h2 id="ascreenshot">A screenshot</h2>
+<p><img src="https://raw.githubusercontent.com/levitation-opensource/my-windhawk-mods/main/screenshots/classic-theme-enable-with-extended-compatibility.png" alt="A screenshot" /></p>
+<h2 id="generalinfoaboutclassicthemeinwindows10and11">General info about classic theme in Windows 10 and 11</h2>
+<p>Classic theme still seems to be native to Windows. Essentially this mod disables themes, and this in turn reactivates the default behaviour of Windows, which is actually classic theme. </p>
+<p>There are few programs that have minor visual glitches. Various Windhawk mods deal with this and so these are solved as well.</p>
+<p>The most important problematic program is Taskbar. Fortunately there are a couple of programs and a number of Windhawk mods, each fixing a different problem of classic theme in Taskbar. All these are mentioned together with links in the instructions below.</p>
+<p>The only totally problematic program uncompatible with classic theme is Task Manager. There exists alternative software which is able to handle Ctrl-Alt-Del as well, also mentioned below.</p>
+<p>Other programs have been running fine, I have been using classic theme for about a few months. Right now my systems look entirely classic (except for programs that have their own built-in themes). I am quite intensive user using many different programs.</p>
+<p>In summary, there are certain additional steps you need to do in order for your computer to be fully adjusted for nicer classic theme UI appearance. See the next section <a href="#instructions-for-setting-up-the-classic-theme">"Instructions for setting up the classic theme"</a> for detailed instructions. Quick summary here:
+1) A few registry parameters that need to be adjusted.
+2) Some additional software needs to be installed.
+3) Windhawk process inclusion settings need updating.
+4) Install the current mod.
+5) Additional Windhawk mods need to be installed.
+6) Configure system start of Windhawk.
+7) You may want to adjust the colours and fonts with a program mentioned in the instructions.
+8) Adjust Taskbar features.</p>
+<h1 id="instructionsforsettinguptheclassictheme">Instructions for setting up the classic theme</h1>
+<p>Note, upon first start, the mod affects only programs started after enabling the mod. Therefore your system might look weird here and there during performing the following installation steps and until you reboot. <strong>After you have finished the configuration steps below, you may want to restart your system.</strong></p>
+<h2 id="1neededregistrychanges">1. Needed registry changes</h2>
+<ol>
+<li><p>If you want the 3D borders in menus, import the following reg file:</p>
+<pre><code>Windows Registry Editor Version 5.00
+[HKEY_CURRENT_USER\Control Panel\Desktop]
+"UserPreferencesMask"=hex:9E,1E,05,80,12,01,00,00
+</code></pre>
+<p>This registry file import is needed because it sets some bits that cannot be configured via Windows control panel settings. Importing this reg file may slightly change the rest of your visual experience as a side effect. You can later further adjust the visual experience affected by this registry entry change via <code>Advanced System Settings control panel -&gt; Performance -&gt; Settings -&gt; Visual Effects</code>. </p>
+<p><em>If you are curious, then the official though incomplete documentation of this registry entry <a href="https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-2000-server/cc957204%28v=technet.10%29">can be found here</a>. I have not found a more complete description, but the value provided above originates from the time-tested <a href="https://github.com/valinet/ExplorerPatcher/discussions/167">tutorial here</a> and according to my testing, the above reg file results in a reasonable initial visual appearance.</em></p></li>
+<li><p>Delete or rename this registry key:<br />
+<code>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\DefaultColors</code><br />
+to prevent colour scheme change after pressing Ctrl-Alt-Del or going to the logon screen and back.</p></li>
+<li><p>Import the following reg file:
+<code>
+Windows Registry Editor Version 5.00
+[HKEY_CURRENT_USER\Control Panel\Desktop\WindowMetrics]
+"BorderWidth"="-15"
+"PaddedBorderWidth"="0"
+[HKEY_CURRENT_USER\Software\ExplorerPatcher]
+"OldTaskbar"=dword:00000001
+"SkinMenus"=dword:00000000
+"ToolbarSeparators"=dword:00000001
+"DisableImmersiveContextMenu"=dword:00000001
+"ClassicThemeMitigations"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer]
+"AltTabSettings"=dword:00000001
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"TaskbarGlomLevel"=dword:00000002
+"MMTaskbarGlomLevel"=dword:00000002
+"TaskbarSmallIcons"=dword:00000001
+"TaskbarAl"=dword:00000000
+"TaskbarSD"=dword:00000001
+[HKEY_CURRENT_USER\Software\OpenShell\StartMenu\Settings]
+"StartButtonType"="ClasicButton"    ; yes, Clasic should be here with one "s"
+"CustomTaskbar"=dword:00000000    
+"SkinC1"="Classic skin"
+"SkinW7"="Classic skin"
+"EnableStartButton"=dword:00000001
+"StartButtonIcon"="%SystemRoot%\System32\slui.exe, 2"
+</code></p></li>
+</ol>
+<h2 id="2additionalneededsoftware">2. Additional needed software</h2>
+<ul>
+<li><a href="https://systeminformer.sourceforge.io/">System Informer / former Process Hacker</a> or alternatively, <a href="https://win7games.com/#taskmgr">Classic Task Manager</a> - Classic theme is not compatible with built-in Windows Task Manager. I recommend Process Hacker / System Informer since Classic Task Manager can cause lagging of the system. Process Hacker / System Informer can be configured to handle Ctrl-Alt-Del as well. </li>
+<li><a href="https://github.com/valinet/ExplorerPatcher">Explorer Patcher</a> - Together with a couple of mods listed in next section improves the Taskbar appearance. Until you install all necessary mods, your Taskbar may become black. Do not let that disturb you.</li>
+<li><a href="https://open-shell.github.io/Open-Shell-Menu/">Open-Shell-Menu</a> - Needed to show Start Button in classic theme.</li>
+<li><a href="https://tweaker.ramensoftware.com/">7+ Taskbar Tweaker</a> - Allows adjusting various Taskbar features.</li>
+<li><a href="https://win7games.com/#notepad">Classic Notepad</a> - (Win 11 only - works better than built-in Notepad under Win 11 in case of classic theme).</li>
+</ul>
+<p>You can set Process Hacker as Ctrl-Alt-Del handler with the following steps. The steps for System Informer are probably similar in nature, though the labels of items might be a bit different. <code>Open Process Hacker -&gt; open "Hacker" menu -&gt; Options -&gt; Advanced -&gt; check "Replace Task Manager with Process Hacker" -&gt; OK</code>.</p>
+<h2 id="3neededchangesinwindhawksettings">3. Needed changes in Windhawk settings</h2>
+<p><strong>Note, enabling classic theme requires Windhawk to be installed, not just run as a portable version.</strong> Portable version of Windhawk will have insufficient privileges to enable classic theme.</p>
+<p>Before you start installing the current mod and additional classic theme mods listed below, you need to update Windhawk process inclusion list, accessible via <code>Windhawk -&gt; Settings -&gt; Advanced settings -&gt; More advanced settings -&gt; Process inclusion list</code>. Add the following rows:</p>
+<pre><code>conhost.exe
+dllhost.exe
+dwm.exe
+winlogon.exe
+</code></pre>
+<p>Then click <code>"Save and restart Windhawk"</code> button.</p>
+<h2 id="4installthecurrentmod">4. Install the current mod</h2>
+<p>Click the "Install" button above the current mod's description.</p>
+<h2 id="5additionalneededclassicthemerelatedmods">5. Additional needed classic theme related mods</h2>
+<p>I recommend installing the following classic theme related mods in order to get full classic theme experience.</p>
+<ul>
+<li><a href="https://windhawk.net/mods/aero-tray">Aero Tray</a></li>
+<li><a href="https://windhawk.net/mods/classic-conhost">Classic Conhost</a></li>
+<li><a href="https://windhawk.net/mods/classic-taskdlg-fix">Classic Task Dialog Fix</a></li>
+<li><a href="https://windhawk.net/mods/classic-taskbar-buttons-lite-vs-without-spacing">Classic Taskbar 3D buttons with extended compatibility</a> or alternatively, <a href="https://windhawk.net/mods/classic-taskbar-buttons-lite">Classic Taskbar 3D buttons Lite</a></li>
+<li><a href="https://windhawk.net/mods/classic-taskbar-background-fix">Classic Taskbar background fix</a> (simple to install) or alternatively, <a href="https://github.com/valinet/ExplorerPatcher/discussions/167#discussioncomment-1616107">@valinet's modified version of OpenShell StartMenuDLL.dll</a> (requires more manual work to install)</li>
+<li><a href="https://windhawk.net/mods/classic-theme-transparency-fix">Classic theme transparency fix</a></li>
+<li><a href="https://windhawk.net/mods/classic-uwp-fix">Classic UWP Fix</a></li>
+<li><a href="https://windhawk.net/mods/clientedge-in-apps">Clientedge Everywhere</a></li>
+<li><a href="https://windhawk.net/mods/disable-rounded-corners">Disable rounded corners in Windows 11</a> (Win 11 only)</li>
+<li><a href="https://windhawk.net/mods/dwm-ghost-mods">DWM Ghost Mods</a></li>
+<li><a href="https://windhawk.net/mods/classic-browser-fix">Fix browsers for Windows Classic theme</a></li>
+<li><a href="https://windhawk.net/mods/classic-maximized-windows-fix">Fix Classic Theme Maximized Windows</a></li>
+<li><a href="https://windhawk.net/mods/win32-tray-clock-experience">Win32 Tray Clock Experience</a> (Win 10 only)</li>
+</ul>
+<p>There are other classic theme related mods in Windhawk which I did not list here for one or other reason. Your experience and preferences may differ. After getting set up with above and feeling like exploring more, you may want to try the other mods out.</p>
+<p>After installing the above mentioned mods, your Windhawk window should look similar to the following screenshot. Of course you may have other mods installed from before as well.</p>
+<p><img src="https://raw.githubusercontent.com/levitation-opensource/my-windhawk-mods/main/screenshots/classic-theme-mods-in-windhawk.png" alt="A Windhawk screenshot with classic theme mods" /></p>
+<h2 id="6howtoconfiguresystemstartofwindhawk">6. How to configure system start of Windhawk</h2>
+<p>Starting Windhawk early improves the probability that classic theme is enabled by the time Taskbar process is launched during login. </p>
+<p><em>In contrast, when Windhawk is activated normally then there is increased chance that the Taskbar process starts before classic theme is enabled - then the Taskbar would not have classic appearance and the user needs to restart the Taskbar manually later in order to apply classic theme to Taskbar.</em></p>
+<p>Steps to enable system start of Windhawk:</p>
+<ol>
+<li>Start Task Scheduler</li>
+<li>Open "Task Scheduler Library" section </li>
+<li>Find the row titled "WindhawkRunUITask", open it by double clicking</li>
+<li>Go to Triggers</li>
+<li>Click "New…" button</li>
+<li>Select Begin the task: "At startup"</li>
+<li>OK</li>
+<li>Click "New…" button</li>
+<li>Select Begin the task: "At log on"</li>
+<li>OK</li>
+<li>OK</li>
+</ol>
+<h2 id="7adjustingthecoloursandfonts">7. Adjusting the colours and fonts</h2>
+<p>For editing the colours and fonts I recommend the following program:<br />
+<a href="https://archive.org/details/desktop_themes_v187_ZIP">Desktop Themes v1.87</a>.</p>
+<p>In order to launch the program, right click on <code>Desktop Themes.exe</code> and select "Run as administrator". This program will not start if you do not launch it with elevated permissions.</p>
+<p>Go to "Edit Theme" section. Enter the username and serial.</p>
+<p>Edit fonts and colours.</p>
+<h2 id="8adjusttaskbarfeatures">8. Adjust Taskbar features</h2>
+<p>Open "7+ Taskbar Tweaker" and see what you want to change. </p>
+<p>Under "Hovering" section I recommend changing the setting to "Tooltip" or "Nothing". The other options do not seem to work very well under classic theme.</p>
+<p>All done. Congratulations! </p>
+<p>If this is the first time you installed classic theme, then you may want to reboot your computer now in order for the classic theme styles to be fully updated and applied to all programs.</p>
+<h1 id="troubleshooting">Troubleshooting</h1>
+<p>In case the window borders become too thick or other dimensions of window elements become different than you prefer, then look under to the registry key<br />
+<code>HKEY_CURRENT_USER\Control Panel\Desktop\WindowMetrics</code></p>
+<p>You may want to import again the registry file provided in chapter <a href="#1-needed-registry-changes">"Needed registry changes"</a>, point (3) "Import the following reg file:".</p>
+<p>You may need to reboot the computer after changing these values in the registry.</p>
+<h1 id="optionaladvancedreading">Optional advanced reading</h1>
+<h2 id="moreinfoaboutsettingupclassictheme">More info about setting up classic theme</h2>
+<p>If you want, you can investigate the following older webpages which provide somewhat alternate instructions for setting up classic theme. The current instructions were partially based on these sources:</p>
+<ul>
+<li><a href="https://windhawk.net/mods/classic-theme-enable">Enable Classic Theme by handle method</a></li>
+<li><a href="https://github.com/valinet/ExplorerPatcher/discussions/167">Tutorial: Use of Windows Classic theme with Windows 10, Windows 11 and Explorer Patcher</a></li>
+</ul>
+<h2 id="howthismodworks">How this mod works</h2>
+<p>The mod disables visual styles, effectively enabling the Windows Classic theme. This mod uses the method of closing access to the memory area where the theme is located. It is one of the multiple methods of enabling Windows classic theme.</p>
+<p>The mod injects only into the process winlogon.exe.</p>
+<h2 id="detaileddescriptionofthecompatibilityupdates">Detailed description of the compatibility updates</h2>
+<p>This mod has the following two capabilities built on top of previous classic theme mod <a href="https://windhawk.net/mods/classic-theme-enable">Enable Classic Theme by handle method by @Anixx</a>: Improved support for RDP sessions and code for handling early mod load, including during system start.</p>
+<p>1) If Windhawk loads too early during system startup with the original mod, then the classic theme initialisation would fail. At the same time, starting Windhawk early (during system startup, not during user login) will improve the chances that the classic theme is applied as soon as possible and no programs need to be restarted later to get classic theme applied. In order for the classic theme enable to succeed in these conditions, the mod needs to check for conditions, and if needed, wait a bit in case the system is not yet ready to apply classic theme.
+2) With the original mod the RDP sessions often disconnected during connecting. This happened even if the session was already logged in and had classic theme already applied, but was currently in disconnected state. Each new RDP connection gets its own winlogon.exe process. The mod needs to wait for the session "active" state in case it is modding RDP session related winlogon.exe processes.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Classic Taskbar background fix 1.0.2]]></title>
+        <id>https://windhawk.net/mods/classic-taskbar-background-fix#3dd2d437683fb8cf87384dca26bcc823113aafe1</id>
+        <link href="https://windhawk.net/mods/classic-taskbar-background-fix"/>
+        <updated>2024-08-18T19:01:35.000Z</updated>
+        <content type="html"><![CDATA[<p>Fixing a more visible artefact caused by interaction with ver 1.3 of "Classic Taskbar 3D buttons Lite". Otherwise keeping compatibility with ver 1.2 of "Classic Taskbar 3D buttons Lite".</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Classic Taskbar background fix 1.0.1]]></title>
+        <id>https://windhawk.net/mods/classic-taskbar-background-fix#60c8140bb45f1efcd5e800376b0b88ab76d2b860</id>
+        <link href="https://windhawk.net/mods/classic-taskbar-background-fix"/>
+        <updated>2024-08-18T18:20:16.000Z</updated>
+        <content type="html"><![CDATA[<p>Adjustment for painting multi-row horisontal taskbar that is fully populated in all rows</p>]]></content>
     </entry>
 </feed>
